@@ -14,6 +14,13 @@ public class PrimerPrograma {
         
         Scanner entradaEscaner=new Scanner(System.in);
         
+        System.out.print("Digite un nombre: ");
+        nombre=entradaEscaner.next();
+        System.out.print("Digite su edad: ");
+        edad=entradaEscaner.nextInt();
+        
+        System.out.println("Su nombre es: " +nombre);
+        System.out.println("Su edad es: " +edad);
     }
     
 }
